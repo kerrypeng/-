@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1c3e81",
+    "navigationBarTitleText": "番茄闹钟",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/time2.png",
+        "iconPath": "image/time1.png",
+        "pagePath": "pages/index/index",
+        "text": "计时"
+      },
+      {
+        "selectedIconPath": "image/tongji.png",
+        "iconPath": "image/tongji1.png",
+        "pagePath": "pages/logs/logs",
+        "text": "统计"
+      }
+    ]
+    }
+}

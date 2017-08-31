@@ -1,0 +1,97 @@
+/* css的注释格式
+.t1代表定义样式
+*/
+/* px代表像素
+    rpx代表微信规定的一个物理像素  */
+
+ .t1{
+	/* font-size代表当前样式的字体大小 单位是px
+     font-weight 字体加粗
+     padding-top 上内边距*/
+	  font-size:15px;
+    font-weight: 900;
+    text-align: center;
+    color: #333333;
+    padding-top: 40px;
+    font-family: 苹方;
+ }
+ .t2{
+   text-align: center;
+   font-size: 13px;
+   color:#999999;
+   padding-top: 16px;
+   font-family: 苹方;
+ }
+
+.box{
+  display: flex;
+  /* flex-direction:row;
+     设置子元素的排列方式
+      column 代表垂直方向排列
+      column-reverse代表反方向的垂直排列
+      row 代表水平方向排列
+      row-reverse 代表反方向的水平排列  */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box1{
+  border: 1px solid #999999;
+  width: 64px;
+  padding: 50rpx;
+  border-top-color: white;
+}
+
+ .img1{
+   width: 64px;
+   height: 64px;
+ }
+.work{
+  font-family: 苹方;
+  font-size: 30px;
+}
+
+.img2{
+  width: 64px;
+  height: 64px;
+}
+.study{
+  font-family: 苹方;
+  font-size: 30px;
+}
+
+.img3{
+  width: 64px;
+  height: 64px;
+}
+.think{
+  font-family: 苹方;
+  font-size: 30px;
+}
+
+.img4{
+  width:64px;
+  height:64px;
+}
+.write{
+  font-family: 苹方;
+  font-size: 30px;
+}
+
+.img5{
+  width: 64px;
+  height: 64px;
+}
+.run{
+  font-family: 苹方;
+  font-size: 30px;
+}
+
+.img6{
+  width: 64px;
+  height: 64px;
+}
+.read{
+  font-family: 苹方;
+  font-size: 30px;
+}

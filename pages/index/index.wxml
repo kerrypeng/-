@@ -1,0 +1,59 @@
+
+<!-- 这里是注释
+<text>是文本开始
+</text>是文本结束-->
+<!-- ctrl+/ 快捷注释 
+    view 代表大盒子 与text的区别是 它里面可以放任何东西 
+    text 只能放文字
+    wxml=html
+    wxss=css-->
+<view class="t1">
+<text > 
+选择一个任务
+</text>
+</view>
+<view class="t2">
+<text >
+在接下来的25分钟，专注做这件事
+</text>
+</view>
+
+
+<!-- 装图片大盒子  -->
+<view class="box">
+
+<!-- 第一张图片的盒子  -->
+<view class="box1">
+<image class="img1 "src="/image/work.jpg"></image>
+<!-- 1.插入图片
+     2.设置边框
+     3.输入文字
+     4.修改盒子的宽 -->
+<text class="work">工作</text>
+</view>
+<!-- 第二张图片的盒子  -->
+<view class="box1">
+<image class="img2" src="/image/study.png"></image>
+<text class="study">学习</text>
+</view>
+<!-- 第三张图片的盒子  -->
+<view class="box1">
+<image class="img3" src="/image/think.png"></image>
+<text class="think">思考</text>
+  </view>
+  <!-- 第四张图片的盒子  -->
+<view class="box1">
+<image class="img4" src="/image/write.png"></image>
+<text class="write">写作</text>
+</view>
+<!-- 第五张图片的盒子  -->
+<view class="box1">
+<image class="img5" src="/image/run.png"></image>
+<text class="run">运动</text>
+</view>
+<!-- 第六张图片的盒子  -->
+<view class="box1">
+<image  class="img6" src="/image/read.png"></image>
+<text class="read">阅读</text>
+</view>
+</view>
